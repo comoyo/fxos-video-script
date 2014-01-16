@@ -1,0 +1,12 @@
+{
+  "name": "Awesome Todo App",
+  "description": "Best thing since sliced bread",
+  "launch_path": "/todo-app.html",
+  "icons": {
+    "128": "/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Awesome Apps(tm)",
+    "url": "http://telenor.com"
+  }
+}
