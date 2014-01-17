@@ -8,5 +8,15 @@
   "developer": {
     "name": "Awesome Apps(tm)",
     "url": "http://telenor.com"
-  }
+  },
+  "locales": {
+    "es": {
+      "name": "Los Todo Appo Awesomeodo"
+    }, 
+    "en": {
+      "name": "Awesome Todo App"
+    }
+  },
+  "default_locale": "en",
+  "fullscreen": true
 }
