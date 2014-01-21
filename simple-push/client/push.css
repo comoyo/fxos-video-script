@@ -1,0 +1,20 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: white;
+}
+#header {
+	background: green;
+	padding: 1em;
+	color: white;
+	font-size: 1.2em;
+}
+#register {
+  padding: 1em;
+}
+#register button {
+  height: 2em;
+  width: 100%;
+  font-size: 1.2em;
+}

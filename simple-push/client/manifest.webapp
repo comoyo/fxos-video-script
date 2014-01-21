@@ -1,0 +1,20 @@
+{
+  "name": "Simple Push Demo",
+  "description": "Los gezellegitos",
+  "launch_path": "/push.html",
+  "icons": {
+    "128": "/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Awesome Apps(tm)",
+    "url": "http://telenor.com"
+  },
+  "permissions": {
+    "push": {"description": "To receive notifications"},
+    "desktop-notification": {}
+  },
+  "messages": [
+    {"push": "/push.html"},
+    {"push-register": "/push.html"}
+  ]
+}
