@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="webactivities.css"/>
+</head>
+<body>
+
+
+<button id="change-bg">Change Wallpaper</button>
+<img id="change-img" style="width: 100%; height: 100%" src="ffosbg.png"/>
+<script>
+  var button = document.getElementById("change-bg")
+
+  button.onclick = function(e) {
+    var pick = new MozActivity({
+      name: "pick",
+      data: {
+        type: ["image/png", "image/jpg", "image/jpeg"]
+      }
+    });
+
+    pick.onsuccess = function() {
+      // Create image and set the returned blob as the src
+      var src = window.URL.createObjectURL(this.result.blob);
+      var img = document.getElementById('change-img');
+      img.src = src
+    }
+
+    pick.onerror = function() {
+      // If an error occurred or the user canceled the activity
+      alert("Can't view the image!");
+    };
+  }
+</script>
+</body>
+</html>

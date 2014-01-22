@@ -1,0 +1,18 @@
+{
+  "name": "Web Activities demo",
+  "description": "Show how to  use web activities!",
+  "launch_path": "/webactivities.html",
+  "icons": {
+    "128": "/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Awesome Apps(tm)",
+    "url": "http://telenor.com"
+  },
+
+  "default_locale": "en",
+  "fullscreen": true,
+  "permissions": {
+    "desktop-notification":{}
+  }
+}
