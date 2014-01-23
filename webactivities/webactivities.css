@@ -1,8 +1,29 @@
 html, body {
   height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
-.change-bg {
+#change-bg {
   position: absolute;
-  margin-top: 5px;
+  background: -moz-linear-gradient(center top , #a90329, #6d0019) repeat scroll 0% 0% transparent;
+  border: 1px solid #0C6EBE;
+  color: #FFF;
+  border-radius: 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: visible;
+  bottom: 2rem;
+  margin-left: 5%;
+  width: 90%;
+  font-size: 2.5rem;
+  height: 8%
+}
+
+#change-bg:active {
+  background: -moz-linear-gradient(center top , #6d0019, #a90329) repeat scroll 0% 0% transparent;
 }
