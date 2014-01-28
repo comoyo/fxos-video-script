@@ -44,7 +44,7 @@
   input.addEventListener('keyup', function() {
 
     // No rate available? Then cancel out.
-    if (!_rate) {
+    if (!rate) {
       result.textContent = 'No rate available';
       return;
     }
@@ -52,7 +52,7 @@
     // Grab the value from the user, and if it's a number show result
     var value = Number(input.value);
     if (!isNaN(value)) {
-      result.textContent = '€ ' + (value * _rate).toFixed(2);
+      result.textContent = '€ ' + (value * rate).toFixed(2);
     }
   });
 
